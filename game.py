@@ -1,1 +1,5 @@
-
+print("Anti-Gravity Adventure")
+print("Level one")
+print("You wake up stranded on a ship.")
+name = input("Your name is: ")
+print(name,"wakes up in an unknown spaceship.")
