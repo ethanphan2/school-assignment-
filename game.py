@@ -26,19 +26,19 @@ answer = input("Answer:")
 
 if answer == "A":
     time.sleep (0.5)
-    print ("artifact starts moving and glowing then stops")
+    print ("Artifact starts moving and glowing then stops")
+    time.sleep (3)
+    print ("Does" , name , "...")
     time.sleep (0.5)
-    print ("does" , name , "...")
+    print("A. Toss artifact away")
     time.sleep (0.5)
-    print("A.toss artifact away")
-    time.sleep (0.5)
-    print ("B.keep it for later")
-    time.sleep (0.5)
-    answer = input ("answar: ")
+    print ("B. Keep it for later")
+    time.sleep (1
+    answer = input ("Answer:")
 
     if answer == "A" :
         time.sleep (0.5)
-        print ("you toss the artifact away but it suddenly combusts melting all the flesh of your bones")
+        print ("You toss the artifact away but it suddenly combusts and melts the flesh off your bones.")
         time.sleep (0.5)
         print ("YOU DIED")
 
@@ -51,30 +51,30 @@ if answer == "A":
 
 if answer == "B" or artifact == True:
     time.sleep (0.5)
-    print (name,"decided to wander the halls")
+    print (name,"decided to wander the halls.")
     time.sleep (0.5)
-    print (name , "hears growling coming from a hall")
+    print (name , "hears growling coming from a hall.")
     time.sleep (0.5)
-    print ("does", name , "...")
+    print ("Does", name, ". . . ")
     time.sleep (0.5)
-    print ("A. investigate it")
+    print ("A. Investigate it")
     time.sleep (0.5)
-    print ("B. run away")
+    print ("B. Run away")
     time.sleep (0.5)
-    answer = input ("answer: ")
+    answer = input ("Answer: ")
 
     if answer == "A":
-        print ("you encounterd an alien")
+        print ("You encountered an alien")
         if artifact == False :
-            print ("you got attacked by the alien and killed")
+            print ("You got attacked by the alien and killed.")
             time.sleep (0.5)
             print ("[YOU DIED]")
         elif artifact == True :
-            print ("the alien tried to attack")
+            print ("The alien tried to attack.")
             time.sleep (0.5)
-            print ("the artifact you had started glowing and the alien jumped back")
+            print("The artifact you had started glowing and the alien jumped back")
             time.sleep (0.5)
-            print ("the alien tries to fight back")
+            print ("The alien tries to fight back")
             print (" does",name,"...")
             print ("A. fight")
             print ("B. run away")
@@ -94,7 +94,7 @@ if answer == "B" or artifact == True:
                 time.sleep (0.5)
                 print ("C.gun attack [ you have",bullets,"bullets]")
                 time.sleep (0.5)
-                answera = input ("answer: ")
+                answera = input ("Answer: ")
 
 
                 if answera == "A":
@@ -110,7 +110,7 @@ if answer == "B" or artifact == True:
 
                   playerhp = playerhp - aliendmg
                   time.sleep (0.5)
-                  print ("the alien fought back and did" , aliendmg , "damage!!" , name , "now has" ,playerhp, "health")
+                  print ("The alien fought back and did" , aliendmg , "damage!!" , name , "now has" ,playerhp, "health")
 
                 elif answera == "B":
                     time.sleep (0.5)
@@ -122,7 +122,7 @@ if answer == "B" or artifact == True:
                     aliendmg = random.randint (80 , 150)
                     playerhp = playerhp - aliendmg
                     time.sleep (0.5)
-                    print ("the alien fought back and did" , aliendmg , "damage!!" , name , "now has" ,playerhp, "health")
+                    print ("The alien fought back and did" , aliendmg , "damage!!" , name , "now has" ,playerhp, "health")
 
                 elif answera == "C":
                     if bullets > 0:
