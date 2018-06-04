@@ -11,8 +11,6 @@ bullets = int (3)
 
 print("Anti-Gravity Adventure")
 time.sleep (0.5)
-print("Level one")
-time.sleep (0.5)
 print("You wake up stranded on a ship.")
 time.sleep (1)
 name = input("Your name is: ")
@@ -171,8 +169,7 @@ if answer == "B" or artifact == True:
                     print (name , "walks around a little more , and encountered an escape pod")
                     time.sleep (1)
                     print (name , "leaves the ship")
-                    time.sleep (1)
-                    print ("level one complete")
+                    
     if answer == "B":
         time.sleep (0.5)
         print ("you tried to run away but the alien caught up and clawed your face off")
